@@ -13,7 +13,7 @@
 /* Header */
 .header {
     grid-area: header;
-    background-color: rgb(122, 230, 167);
+    background-color: rgb(36, 77, 53);
 }
 
 .homepage_header {
@@ -74,18 +74,19 @@ h1 {
     height: 100%;
     width: 100%;
     margin-bottom: 15px;
+    object-fit: cover;
 }
 
 .hero {
-    /* width: 100%; */
-    /* margin-bottom: 50px; */
+     width: 100%; 
+    margin-bottom: 50px; 
 }
 
 .homepage_products {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 200px 200px;
-    grid-gap: 21px;
+    grid-gap: 2em;
     padding: 0 20px;
     margin-bottom: 150px;
 }
@@ -185,7 +186,7 @@ figcaption {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 350px 350px;
-        grid-gap: 30px;
+        grid-gap: 1rem;
         padding: 0 20px;
         margin-bottom: 100px;
     }
